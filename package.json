@@ -20,9 +20,6 @@
       "url": "http://markdalgleish.mit-license.org"
     }
   ],
-  "dependencies": {
-    "jquery": ">=1.4.3"
-  },
   "bugs": "https://github.com/markdalgleish/stellar.js/issues",
   "repository": {
     "type": "git",
@@ -40,13 +37,16 @@
   "scripts": {
     "test": "grunt test"
   },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
   "devDependencies": {
-    "grunt": "^1.5.3",
+    "grunt": "^1.6.1",
     "grunt-cli": "^1.4.3",
     "grunt-contrib-concat": "^2.1.0",
-    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-connect": "^4.0.0",
     "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-qunit": "^6.2.1",
+    "grunt-contrib-qunit": "^8.0.1",
     "grunt-contrib-uglify": "^5.2.2",
     "matchdep": "^2.0.0"
   }
